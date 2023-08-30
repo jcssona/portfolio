@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Portfolio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/queries.css">
+  </head>
+  <body>
+    <!-- navar -->
+    <nav class="nav">
+      <div class="container">
+        <p class="logo">JaySonawane</p>
+        <ul class="nav_list">
+          <li class="nav-item">
+            <a href="https://github.com/jcssona" target="_blank"
+              ><i class="fa-brands fa-github fa-2xl"></i
+            ></a>
+          </li>
+          <li class="nav-item">
+            <a
+              href="https://www.linkedin.com/in/jay-sonawane-b548a5283/"
+              target="_blank"
+              ><i class="fa-brands fa-linkedin fa-2xl"></i
+            ></a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- header section -->
+    <header class="header">
+      <div class="container">
+        <div class="header-left">
+          <h1 class="heading-primary">
+            Nice to meet you!
+            I'm <span>Jay Sonawane</span>.
+          </h1>
+          <p class="header-text">
+            Based in the India, I'm a front end developer 
+            passionate about building accessible web apps
+            that users love.
+          </p>
+          <a href="#" class="cta-btn">Contact me</a>
+        </div>
+        <div class="header-right">
+          <img
+            class="header-img"
+            src="./img/profile-pic.jpg"
+            alt="Profile photo"
+          />
+        </div>
+      </div>
+    </header>
+
+    <!-- line -->
+    <div class="container">
+      <div class="line"></div>
+    </div>
+
+    <!-- skills section -->
+    <section class="skills">
+      <div class="container">
+        <h2 class="heading-secondary green-line">Skills</h2>
+        <div class="grid grid-columns-3">
+          <div class="skill">
+            <p class="heading-tertiory">HTML</p>
+          </div>
+          <div class="skill">
+            <p class="heading-tertiory">CSS</p>
+          </div>
+          <div class="skill">
+            <p class="heading-tertiory">JavaScript</p>
+          </div>
+          <div class="skill">
+            <p class="heading-tertiory">Java</p>
+          </div>
+          <div class="skill">
+            <p class="heading-tertiory">MySQL</p>
+          </div>
+          <div class="skill">
+            <p class="heading-tertiory">Data Structures</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="projects">
+      <div class="container">
+        <h2 class="heading-secondary green-line">Projects</h2>
+        <div class="grid grid-columns-4">
+          <div class="project">
+            <img
+              class="project-img"
+              src="./img/cost-estimator.png"
+              alt="Cost estimator using flexbox"
+            />
+            <div class="project-info">
+              <h4>Cost Estimator</h4>
+              <div class="techs"><span>HTML</span><span>CSS</span></div>
+            </div>
+          </div>
+
+          <div class="project">
+            <img
+              class="project-img"
+              src="./img/netflix.png"
+              alt="Netflix clone"
+            />
+            <div class="project-info">
+              <h4>Netflix Clone</h4>
+              <div class="techs"><span>HTML</span><span>CSS</span></div>
+            </div>
+          </div>
+
+          <div class="project">
+            <img
+              class="project-img"
+              src="./img/snapsound.png"
+              alt="Snapsound landing page"
+            />
+            <div class="project-info">
+              <h4>Landing Page</h4>
+              <div class="techs"><span>HTML</span><span>CSS</span></div>
+            </div>
+          </div>
+
+          <div class="project">
+            <img class="project-img" src="./img/Todo.png" alt="Todo App" />
+            <div class="project-info">
+              <h4>Todo</h4>
+              <div class="techs">
+                <span>HTML</span><span>CSS</span><span>JS</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="interesets-strengths">
+      <div class="container">
+        <div class="grid grid-columns-2">
+          <div class="interest">
+            <h2 class="heading-secondary green-line">Interests</h2>
+            <ul class="interest-list">
+              <li>Exploring new techs</li>
+              <li>Coding</li>
+              <li>Automobile</li>
+            </ul>
+          </div>
+          <div class="strength">
+            <h2 class="heading-secondary green-line">Strengths</h2>
+            <ul class="strength-list">
+              <li>Keen observer</li>
+              <li>Quick learner</li>
+              <li>Dedicated</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- contact form -->
+    <section class="contact">
+      <div class="container">
+        <div class="contact-text">
+          <h2 class="heading-secondary">Contact</h2>
+          <p>
+            I would love to hear about your project and how I <br />
+            could help. Please fill in the form, and I'll get back <br />
+            to you as soon as possible.
+          </p>
+        </div>
+        <div class="contact-form">
+          <form action="#">
+            <div class="form-control">
+              <input type="text" name="name" id="name" placeholder="Name" />
+            </div>
+            <div class="form-control">
+              <input type="email" name="email" id="email" placeholder="Email" />
+            </div>
+            <div class="form-control">
+              <textarea
+                name="message"
+                id="message"
+                placeholder="Message"
+              ></textarea>
+            </div>
+            <p class="form-btn">
+              <a href="#" class="contact_btn">Send Message</a>
+            </p>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <div class="line container"></div>
+
+    <!-- footer section -->
+    <footer class="footer">
+      <div class="container">
+        <p class="logo">JaySonawane</p>
+        <ul class="footer_list">
+          <li class="footer-item">
+            <a
+              class="footer_link"
+              href="https://github.com/jcssona"
+              target="_blank"
+              ><i class="fa-brands fa-github fa-xl"></i
+            ></a>
+          </li>
+          <li class="footer-item">
+            <a
+              class="footer_link"
+              href="https://www.linkedin.com/in/jay-sonawane-b548a5283/"
+              target="_blank"
+              ><i class="fa-brands fa-linkedin fa-xl"></i
+            ></a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>
